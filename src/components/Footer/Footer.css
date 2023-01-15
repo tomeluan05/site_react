@@ -1,0 +1,23 @@
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(80, 78, 78);
+   color: white;
+   text-align: center;
+}
+
+.teste{
+    font-size: 14px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 760px){
+    .teste{
+        font-size: 13px;
+    }
+}

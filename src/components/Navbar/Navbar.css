@@ -1,0 +1,112 @@
+.navbar-toggler{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.imagem_logo{
+    width: 95px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #d3531a;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar{
+    margin-top: 0px;
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+    background: linear-gradient(263deg, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 100%);
+    transition: 0.4s ease;
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background: linear-gradient(263deg, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 100%);
+    transition: 0.4s ease;
+}
+
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+    background: linear-gradient(263deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    transition: 0.4s ease;
+}
+
+.navbar-toggler .top-bar:hover{
+    background: linear-gradient(263deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+}
+
+.navbar-toggler .bottom-bar:hover{
+    background: linear-gradient(263deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+}
+
+/* State when the navbar is collapse */
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* Color of 3 lines */
+
+.navbar-toggler.collapsed .toggler-icon{
+    background: linear-gradient(263deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);  
+    transition: 0.4s ease; 
+}
+
+.navbar-toggler.collapsed .toggler-icon:hover{
+    background: linear-gradient(263deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+}
+
+.navbar{
+    background-color: rgba(81, 83, 81, 0);
+    /* background-color: rgb(39, 38, 38); */
+    display: absolute;
+    transition: 0.4s ease;
+}
+
+.navbar:hover{
+    background-color: rgba(39, 38, 38, 0.7);
+    
+}
