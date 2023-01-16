@@ -7,7 +7,7 @@ footer{
    text-align: center;
 }
 
-.teste{
+.text-footer{
     font-size: 14px;
 }
 
@@ -17,7 +17,7 @@ footer a{
 }
 
 @media screen and (max-width: 760px){
-    .teste{
+    .text-footer{
         font-size: 13px;
     }
 }

@@ -77,8 +77,29 @@ function Home() {
       <div />
 
       {/* SESSÃO 2 */}
+      <div class="row m-0 sessao2">
+        <div class="col-md-12 m-0 p-0">
+          <div className="div-section2">
 
+          <video autoPlay muted loop playsInline className="back-video">
+            <source src="https://setima.cc/wp-content/themes/setima/videos/stars.mp4" type="video/mp4">
+            </source>
+            
+          </video>
 
+          <div className="description">
+            <h1 className="gradient">De ponta a ponta, de verdade</h1>
+          <p>
+            Distante da crise existencial que toma conta de agências tradicionais e consultorias, a Sétima não é nada disso, porque é a convergência perfeita entre agência, consultoria e produtora.
+          </p>
+          <p>
+            Remixamos aquilo que de melhor existe em cada um desses universos e criamos novas formas de solucionar problemas que, além de gerar resultados a partir da soma de competências que antes só existiam isoladas, nos possibilita realizer entregas que vão, de verdade, de ponta a ponta.
+          </p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
 
     </Layout>
   );
